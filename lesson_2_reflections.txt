@@ -4,3 +4,13 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 -The staging area allows a commit to be built prior to actually performing the commit. It is beneficial because you can change your commit and its message prior to actually committing it.
 
+How can you use the staging area to make sure you have one commit per logical change?
+-You can check out the difference between the staging area and the commit. If the staging area shows more than 1 logical difference then we know we can split it into two different commits.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+-Branches would help when trying an experimental change in the code without having to worry about being able to revert back to an old version.
+
+How do the diagrams help you visualize the branch structure?
+-They allow me to see which commits will be visible from each branch, and which commits may be unreachable from other branches as well.
+
+
