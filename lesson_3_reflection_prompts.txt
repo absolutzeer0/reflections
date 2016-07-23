@@ -11,4 +11,7 @@ What is the benefit of having a copy of the last known state of the remote store
 -We would be able to tell if there was a change from the last time we pulled or committed.
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
--People would have to email back and forth or use a shared folder system on something like a server or cloud drive. It would be much harder to keep track of changes and when bugs were introduced or solved, and also would be hard to revert changes in case of a problem with a program that was deployed.
+-People would have to email back and forth or use a shared folder system on something like a server or cloud drive. It would be much harder to keep track of changes and when bugs were iredditntroduced or solved, and also would be hard to revert changes in case of a problem with a program that was deployed.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+-Making changes in a separate branch would be done whenever any changes are being made so that the master branch always remains a working piece of code and won't be broken. It also allows the developer to experiment to see if they can change something without the fear of breaking any real code.
